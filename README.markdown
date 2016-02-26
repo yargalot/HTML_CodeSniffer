@@ -10,6 +10,12 @@ HTML_CodeSniffer is released under a BSD-style licence. For more information, pl
 
 HTML_CodeSniffer comes with standards and sniffs that cover the three conformance levels of the W3C [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20), and the U.S. [Section 508](http://section508.gov/index.cfm?fuseAction=stdsdoc) legislation.
 
+## I want to develop something using HTML_CodeSniffer - which branch should I use?
+
+The `master` branch is the main development branch.
+
+The `2.0` branch is the current stable branch. Builds of the Accessibility Auditor occur off this branch (starting from version 2.0.6). If you are developing a tool based off HTML_CodeSniffer, it's probably best to use the appropriate version tags, or pin your version of HTML_CodeSniffer to the `2.0` branch.
+
 ## Contributing and reporting issues
 
 To report any issues with using HTML_CodeSniffer, please use the [HTML_CodeSniffer Issue Tracker](http://github.com/squizlabs/HTML_CodeSniffer/issues).
@@ -18,7 +24,7 @@ Contributions to the HTML_CodeSniffer code base are also welcome: please create 
 
 ## More Information
 
-More information on HTML_CodeSniffer can be found on its GitHub site, [http://squizlabs.github.com/HTML_CodeSniffer/](http://squizlabs.github.com/HTML_CodeSniffer/). This site provides:
+More information on HTML_CodeSniffer can be found on its GitHub site, [http://squizlabs.github.io/HTML_CodeSniffer/](http://squizlabs.github.io/HTML_CodeSniffer/). This site provides:
 
 - Information on the tests performed (and messages emitted) by HTML_CodeSniffer's standards, organised by conformance level and Success Criterion;
 - A source test area that allows you to try out HTML_CodeSniffer with your own HTML source code; and
